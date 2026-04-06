@@ -37,8 +37,10 @@ export const I18N_SCOPES = [
   'seedream',
   'seedance',
   'hailuo',
+  'wan',
   'headshots',
   'suno',
+  'producer',
   'coin',
   'common',
   'console',
@@ -51,5 +53,6 @@ export const I18N_SCOPES = [
   'user',
   'site',
   'chat',
-  'midjourney'
+  'midjourney',
+  'serp'
 ];

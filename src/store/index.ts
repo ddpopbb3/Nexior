@@ -13,9 +13,12 @@ import flux from './flux';
 import hailuo from './hailuo';
 import headshots from './headshots';
 import suno from './suno';
+import producer from './producer';
 import nanobanana from './nanobanana';
 import seedream from './seedream';
 import seedance from './seedance';
+import serp from './serp';
+import wan from './wan';
 import root from './common';
 import persistChat from './chat/persist';
 import persistMidjourney from './midjourney/persist';
@@ -30,9 +33,12 @@ import persistFlux from './flux/persist';
 import persistHailuo from './hailuo/persist';
 import persistHeadshots from './headshots/persist';
 import persistSuno from './suno/persist';
+import persistProducer from './producer/persist';
 import persistNanobanana from './nanobanana/persist';
 import persistSeedream from './seedream/persist';
 import persistSeedance from './seedance/persist';
+import persistSerp from './serp/persist';
+import persistWan from './wan/persist';
 import persistRoot from './common/persist';
 
 const store = createStore({
@@ -51,9 +57,12 @@ const store = createStore({
     hailuo: hailuo,
     headshots: headshots,
     suno: suno,
+    producer: producer,
     nanobanana: nanobanana,
     seedream: seedream,
-    seedance: seedance
+    seedance: seedance,
+    serp: serp,
+    wan: wan
   },
   plugins: [
     createPersistedState({
@@ -72,9 +81,12 @@ const store = createStore({
         ...persistHailuo,
         ...persistHeadshots,
         ...persistSuno,
+        ...persistProducer,
         ...persistNanobanana,
         ...persistSeedream,
-        ...persistSeedance
+        ...persistSeedance,
+        ...persistSerp,
+        ...persistWan
       ]
     })
   ]

@@ -11,10 +11,13 @@ import pixverseState from '../pixverse/state';
 import fluxState from '../flux/state';
 import hailuoState from '../hailuo/state';
 import sunoState from '../suno/state';
+import producerState from '../producer/state';
 import headshotsState from '../headshots/state';
 import nanobananaState from '../nanobanana/state';
 import seedreamState from '../seedream/state';
 import seedanceState from '../seedance/state';
+import serpState from '../serp/state';
+import wanState from '../wan/state';
 
 export default (): IRootState => {
   return {
@@ -52,9 +55,12 @@ export default (): IRootState => {
     flux: fluxState(),
     hailuo: hailuoState(),
     suno: sunoState(),
+    producer: producerState(),
     headshots: headshotsState(),
     nanobanana: nanobananaState(),
     seedream: seedreamState(),
-    seedance: seedanceState()
+    seedance: seedanceState(),
+    serp: serpState(),
+    wan: wanState()
   };
 };

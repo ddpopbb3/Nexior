@@ -5,6 +5,7 @@ import grok from './grok';
 import gemini from './gemini';
 import claude from './claude';
 import deepseek from './deepseek';
+import kimi from './kimi';
 import chatgpt from './chatgpt';
 import midjourney from './midjourney';
 import distribution from './distribution';
@@ -20,9 +21,12 @@ import flux from './flux';
 import hailuo from './hailuo';
 import headshots from './headshots';
 import suno from './suno';
+import producer from './producer';
 import nanobanana from './nanobanana';
 import seedream from './seedream';
 import seedance from './seedance';
+import serp from './serp';
+import wan from './wan';
 import site from './site';
 import profile from './profile';
 
@@ -62,6 +66,12 @@ const ROUTE_SEO: Record<string, { title: string; description: string; keywords: 
     title: 'DeepSeek',
     description: 'Chat with DeepSeek AI — advanced reasoning and coding AI assistant.',
     keywords: ['DeepSeek', 'AI Chat', 'AI Coding', 'DeepSeek AI'],
+    category: 'AI Chat'
+  },
+  kimi: {
+    title: 'Kimi',
+    description: 'Chat with Kimi AI — advanced AI conversations powered by Moonshot AI.',
+    keywords: ['Kimi', 'Moonshot AI', 'AI Chat', 'Kimi AI'],
     category: 'AI Chat'
   },
   midjourney: {
@@ -149,10 +159,22 @@ const ROUTE_SEO: Record<string, { title: string; description: string; keywords: 
     keywords: ['Seedance', 'AI Video', 'Dance Video', 'ByteDance'],
     category: 'AI Video Generation'
   },
+  wan: {
+    title: 'Wan',
+    description: 'Generate AI videos with Wan — high-quality video generation by Tongyi Wanxiang.',
+    keywords: ['Wan', 'Tongyi', 'AI Video', 'Video Generation'],
+    category: 'AI Video Generation'
+  },
   suno: {
     title: 'Suno',
     description: 'Create AI music with Suno — generate songs, lyrics, and music from text descriptions.',
     keywords: ['Suno', 'AI Music', 'Music Generation', 'AI Song', 'Text to Music'],
+    category: 'AI Music Generation'
+  },
+  producer: {
+    title: 'Producer',
+    description: 'Create AI music with Producer — generate songs, lyrics, and music with FUZZ models.',
+    keywords: ['Producer', 'AI Music', 'Music Generation', 'FUZZ', 'AI Song'],
     category: 'AI Music Generation'
   },
   distribution: {
@@ -160,6 +182,13 @@ const ROUTE_SEO: Record<string, { title: string; description: string; keywords: 
     description: 'Join the Ace Data Cloud affiliate program — earn commissions by referring AI services.',
     keywords: ['Affiliate', 'Referral', 'Earn', 'Commission'],
     category: 'Business'
+  },
+  serp: {
+    title: 'Search',
+    description:
+      'Search the web with Google — powered by SERP API. Get organic results, knowledge graphs, images, and more.',
+    keywords: ['Search', 'Google Search', 'SERP', 'Web Search'],
+    category: 'Web Search'
   }
 };
 
@@ -175,6 +204,7 @@ const routes = [
   gemini,
   claude,
   deepseek,
+  kimi,
   qrart,
   luma,
   pika,
@@ -186,9 +216,12 @@ const routes = [
   hailuo,
   headshots,
   suno,
+  producer,
   nanobanana,
   seedream,
   seedance,
+  serp,
+  wan,
   midjourney,
   distribution,
   download,

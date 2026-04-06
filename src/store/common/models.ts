@@ -12,9 +12,12 @@ import { IFluxState } from '../flux/models';
 import { IHailuoState } from '../hailuo/models';
 import { IHeadshotsState } from '../headshots/models';
 import { ISunoState } from '../suno/models';
+import { IProducerState } from '../producer/models';
 import { INanobananaState } from '../nanobanana/models';
 import { ISeedreamState } from '../seedream/models';
 import { ISeedanceState } from '../seedance/models';
+import { ISerpState } from '../serp/models';
+import { IWanState } from '../wan/models';
 
 export interface ISetting {}
 
@@ -57,9 +60,12 @@ export interface IAppState {
   hailuo: IHailuoState;
   headshots: IHeadshotsState;
   suno: ISunoState;
+  producer: IProducerState;
   nanobanana: INanobananaState;
   seedream: ISeedreamState;
   seedance: ISeedanceState;
+  serp: ISerpState;
+  wan: IWanState;
 }
 
 export interface IRootState extends ICommonState, IAppState {}

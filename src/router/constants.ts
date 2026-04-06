@@ -18,6 +18,8 @@ export const ROUTE_GEMINI_CONVERSATION = 'gemini-conversation';
 export const ROUTE_GEMINI_CONVERSATION_NEW = 'gemini-conversation-new';
 export const ROUTE_CLAUDE_CONVERSATION = 'claude-conversation';
 export const ROUTE_CLAUDE_CONVERSATION_NEW = 'claude-conversation-new';
+export const ROUTE_KIMI_CONVERSATION = 'kimi-conversation';
+export const ROUTE_KIMI_CONVERSATION_NEW = 'kimi-conversation-new';
 
 export const ROUTE_MIDJOURNEY_INDEX = 'midjourney-index';
 
@@ -54,11 +56,17 @@ export const ROUTE_HEADSHOTS_HISTORY = 'headshots-history';
 export const ROUTE_SUNO_INDEX = 'suno-index';
 export const ROUTE_SUNO_HISTORY = 'suno-history';
 
+export const ROUTE_PRODUCER_INDEX = 'producer-index';
+
 export const ROUTE_NANOBANANA_INDEX = 'nanobanana-index';
 
 export const ROUTE_SEEDREAM_INDEX = 'seedream-index';
 
 export const ROUTE_SEEDANCE_INDEX = 'seedance-index';
+
+export const ROUTE_SERP_INDEX = 'serp-index';
+
+export const ROUTE_WAN_INDEX = 'wan-index';
 
 export const ROUTE_PROFILE_INDEX = 'profile-index';
 
