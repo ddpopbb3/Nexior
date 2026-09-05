@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Keep pending task cards synchronized efficiently across all active generation scenarios.",
-  "packageName": "@acedatacloud/nexior",
-  "email": "dev@acedata.cloud",
-  "dependentChangeType": "patch"
-}

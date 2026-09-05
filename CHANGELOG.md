@@ -1,8 +1,32 @@
 # Change Log - @acedatacloud/nexior
 
-<!-- This log was last generated on Wed, 26 Aug 2026 20:58:44 GMT and should not be manually modified. -->
+<!-- This log was last generated on Sat, 05 Sep 2026 20:20:35 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 3.368.0
+
+Sat, 05 Sep 2026 20:20:35 GMT
+
+### Minor changes
+
+- Add one-shot Fish voice cloning from a reference audio sample and exact transcript. (dev@acedata.cloud)
+- Add GPT-6 Astra to the ChatGPT model picker as the new flagship default. (dev@acedata.cloud)
+- Add Suno custom music model creation, management, and generation (dev@acedata.cloud)
+
+### Patches
+
+- Explain usage-based billing without showing unreliable gpt-image-2 official estimates. (dev@acedata.cloud)
+- Tighten workspace spacing around service task results. (dev@acedata.cloud)
+- Remove Maestro quality tiers and expose one universal full-capability video contract. (dev@acedata.cloud)
+- Hide Nano Banana from the Google Play build until its provider safety contract is deterministic, while improving AI content reporting and blocked-result rendering. (dev@acedata.cloud)
+- Allow read-only scheduled templates to be enabled directly and prevent duplicate activation requests. (dev@acedata.cloud)
+- Prevent Seedance first/last-frame inputs from being combined with multimodal reference media. (dev@acedata.cloud)
+- Align Seedream 5.0 Pro and Lite controls, layer results, and request contracts with the official API. (dev@acedata.cloud)
+- Refresh generation task history every five seconds so new tasks appear promptly. (dev@acedata.cloud)
+- Keep pending task cards synchronized efficiently across all active generation scenarios. (dev@acedata.cloud)
+- Record successful x402 wallet connections across Studio payment entry points. (dev@acedata.cloud)
+- Keep interrupted chat responses visible and clearly marked as incomplete. (dev@acedata.cloud)
 
 ## 3.367.2
 

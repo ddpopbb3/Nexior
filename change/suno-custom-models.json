@@ -1,7 +1,0 @@
-{
-  "type": "minor",
-  "comment": "Add Suno custom music model creation, management, and generation",
-  "packageName": "@acedatacloud/nexior",
-  "email": "dev@acedata.cloud",
-  "dependentChangeType": "patch"
-}

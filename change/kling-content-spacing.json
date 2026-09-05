@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Tighten workspace spacing around service task results.",
-  "packageName": "@acedatacloud/nexior",
-  "email": "dev@acedata.cloud",
-  "dependentChangeType": "patch"
-}

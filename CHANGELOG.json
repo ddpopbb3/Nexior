@@ -2,6 +2,101 @@
   "name": "@acedatacloud/nexior",
   "entries": [
     {
+      "date": "Sat, 05 Sep 2026 20:20:35 GMT",
+      "version": "3.368.0",
+      "tag": "@acedatacloud/nexior_v3.368.0",
+      "comments": {
+        "minor": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "9bf102f771c59735cd25334cbfbee1f58df743ab",
+            "comment": "Add one-shot Fish voice cloning from a reference audio sample and exact transcript."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "2b9be3b13d020e40653d9cbe1c477b4f435c9811",
+            "comment": "Add GPT-6 Astra to the ChatGPT model picker as the new flagship default."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "21746f63a96d93ff12262436ccad3d4b63942b6f",
+            "comment": "Add Suno custom music model creation, management, and generation"
+          }
+        ],
+        "patch": [
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "8ad6df1645387d068670bdc6ab78a93185ae92ed",
+            "comment": "Explain usage-based billing without showing unreliable gpt-image-2 official estimates."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "578acf98eebf6ee3437ce94a3103d5cc77536448",
+            "comment": "Tighten workspace spacing around service task results."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "a439959ef79032649847b32b6e4c0ebe198cff59",
+            "comment": "Remove Maestro quality tiers and expose one universal full-capability video contract."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "cc892a25f68940ca7119590be7cb78963cb2f3e1",
+            "comment": "Hide Nano Banana from the Google Play build until its provider safety contract is deterministic, while improving AI content reporting and blocked-result rendering."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "127f1bd088e9201901cf83fbb09eec241ac7fb62",
+            "comment": "Allow read-only scheduled templates to be enabled directly and prevent duplicate activation requests."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "140449765774dcf123e710cc0aade993b14e62c3",
+            "comment": "Prevent Seedance first/last-frame inputs from being combined with multimodal reference media."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "0c97e3b0e354e3d37d94b74679b52299483a8140",
+            "comment": "Align Seedream 5.0 Pro and Lite controls, layer results, and request contracts with the official API."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "372d73123759df54eb2c1dde4250ebdc7b4c5387",
+            "comment": "Refresh generation task history every five seconds so new tasks appear promptly."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "38cd88169df5f9bcf03027d1a50535a0f515cc9c",
+            "comment": "Keep pending task cards synchronized efficiently across all active generation scenarios."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "3d3af9cb51c1ebaa05fe33d5fa9afe7e5d245af3",
+            "comment": "Record successful x402 wallet connections across Studio payment entry points."
+          },
+          {
+            "author": "dev@acedata.cloud",
+            "package": "@acedatacloud/nexior",
+            "commit": "8fbeb8e168cc368603eab8a982c87d4c28dde059",
+            "comment": "Keep interrupted chat responses visible and clearly marked as incomplete."
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 26 Aug 2026 20:58:44 GMT",
       "version": "3.367.2",
       "tag": "@acedatacloud/nexior_v3.367.2",

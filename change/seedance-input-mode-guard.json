@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "Prevent Seedance first/last-frame inputs from being combined with multimodal reference media.",
-  "packageName": "@acedatacloud/nexior",
-  "email": "dev@acedata.cloud",
-  "dependentChangeType": "patch"
-}
